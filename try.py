@@ -62,9 +62,9 @@ for i in range(1, skeleton.shape[0] - 1):
                 extreme_nodes_list.append((i, j))
 
 
-
 tolerance = 5
-ap = approximate_polygon(all_nodes_list, tolerance)
+intermediate_nodes = approximate_polygon(all_nodes_list, tolerance)
+intermediate_nodes = [(node[0], node[1]) for node in intermediate_nodes]
 
 
 bifurcation_nodes_list = []
