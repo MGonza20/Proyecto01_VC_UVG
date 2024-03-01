@@ -1,8 +1,3 @@
----
-title: "Proyecto de Computer Vision: Reconocimiento de Estructuras Arteriales en Imágenes Médicas"
-output: github_document
----
-
 # Proyecto de Computer Vision: Reconocimiento de Estructuras Arteriales en Imágenes Médicas
 
 Este proyecto se centra en el procesamiento de imágenes médicas para reconocer y simplificar estructuras arteriales en imágenes de rayos X de angiogramas coronarios. Se implementaron algoritmos de binarización de imágenes y se desarrolló un método para discretizar la estructura arterial y representarla como un grafo.
