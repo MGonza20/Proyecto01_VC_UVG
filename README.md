@@ -18,7 +18,7 @@ Este proyecto se centra en el procesamiento de imágenes médicas para reconocer
 
 - **Código Fuente:**
     - `Problema01.ipynb`: Contiene la implementación de los algoritmos de binarización de imágenes.
-    - `Problema01.ipynb`: Contiene el código para la discretización de la estructura arterial y la generación del grafo.
+    - `Problema02.ipynb`: Contiene el código para la discretización de la estructura arterial y la generación del grafo.
 
 - **Datos:**
     - Carpeta `images`: Contiene las imágenes originales y las imágenes binarias groundtruth utilizadas en el proyecto.
@@ -33,18 +33,17 @@ Este proyecto se centra en el procesamiento de imágenes médicas para reconocer
     - Analizar las métricas de desempeño en los resultados obtenidos.
 
 2. **Discretización de la Estructura Arterial:**
-    - Ejecutar el script `Problema01.ipynb` con las imágenes groundtruth.
+    - Ejecutar el script `Problema02.ipynb` con las imágenes groundtruth.
     - Revisar el archivo estructurado generado que describe el grafo obtenido y las visualizaciones de los grafos.
 
 ## Ejemplo de Resultados:
 
 - Se adjunta una imagen de ejemplo de la binarización de una imagen de rayos X y su correspondiente imagen binaria resultante.
 
-![Problema 1 - Image 10](images\test_prob1.png)
-
+[![Problema 1 - Image 10](https://i.postimg.cc/YSCd09sg/test-prob1.png)](https://postimg.cc/yD2mrVBY)
 - También se incluye una visualización del grafo generado a partir de la discretización de la estructura arterial.
 
-![Problema 2 - Image 1](results_p02\1_gt\1_gt.png)
+[![Problema 2 - Image 1](https://i.postimg.cc/285yHNMG/1-gt.png)](https://postimg.cc/9zvcMKWw)
 
 ## Autores:
 
